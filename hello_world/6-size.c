@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Prints sizes of various types
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
