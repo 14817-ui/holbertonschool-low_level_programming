@@ -22,7 +22,12 @@ int main(void)
         if (choice == 0)
         {
                 printf("Bye!\n");
+		break;
         }
+	else if (choice < 0 || choice > 4)
+	{
+		printf("Invalid choice")
+	}
 
         return (0);
 }
