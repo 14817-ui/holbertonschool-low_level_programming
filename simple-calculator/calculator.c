@@ -9,6 +9,8 @@
 int main(void)
 {
         int choice;
+	int a;
+	int b;
 
 	while (1)
 	{
@@ -23,10 +25,20 @@ int main(void)
         	scanf("%d", &choice);
 
         	if (choice == 0)
-        		{
-                		printf("Bye!\n");
+       		{
+               		printf("Bye!\n");
 				break;
-        		}
+       		}
+		else if (choice == 1)
+		{
+			printf("A:\n");
+			scanf("%d", &a);
+
+			printf("B:\n");
+			scanf("%d", &b);
+
+			printf("Result: %d\n", a + b);
+		}
 
 		else if (choice < 0 || choice > 4)
 			{
