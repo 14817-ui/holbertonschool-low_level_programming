@@ -29,6 +29,7 @@ int main(void)
                		printf("Bye!\n");
 				break;
        		}
+
 		else if (choice == 1)
 		{
 			printf("A:\n");
@@ -38,6 +39,17 @@ int main(void)
 			scanf("%d", &b);
 
 			printf("Result: %d\n", a + b);
+		}
+
+		else if (choice == 2)
+		{
+			printf("A:\n");
+			scanf("%d", &a);
+
+			printf("B:\n");
+			scanf("%d", &b);
+
+			printf("Result: %d\n", a - b);
 		}
 
 		else if (choice < 0 || choice > 4)
