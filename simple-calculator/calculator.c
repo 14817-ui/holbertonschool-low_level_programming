@@ -52,6 +52,17 @@ int main(void)
 			printf("Result: %d\n", a - b);
 		}
 
+		else if (choice == 3)
+		{
+			printf("A:\n");
+			scanf("%d", &a);
+
+			printf("B:\n");
+			scanf("%d", &b);
+
+			printf("Result: %d\n", a * b);
+		}
+
 		else if (choice < 0 || choice > 4)
 			{
 				printf("Invalid choice\n");
