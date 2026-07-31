@@ -13,20 +13,24 @@
 
 		length = 0;
 
-	while (str[length] != '\0')
-		length++;
+		while (str[length] != '\0')
+		{
+			length++;
+		}
 
 		start = length / 2;
 
-	if (length % 2 != 0)
-		start = (length + 1) / 2;
+		if (length % 2 != 0)
+		{
+			start = (length + 1) / 2;
+		}
 
-	while (str[start] != '\0')
+		while (str[start] != '\0')
 		{
 			_putchar(str[start]);
 			start++;
 		}
 
-	_putchar('\n');
+		_putchar('\n');
 	}
 
